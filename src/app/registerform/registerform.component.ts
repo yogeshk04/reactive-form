@@ -23,6 +23,10 @@ export class RegisterformComponent implements OnInit {
 
   submitData() {
     console.log(this.registerForm.value);
+    if(this.registerForm.valid) {
+      alert(`Thank you! ${this.registerForm.value.firstName} ${this.registerForm.value.lastName} `);
+      this.registerForm.reset();
+    }
     
   }
 

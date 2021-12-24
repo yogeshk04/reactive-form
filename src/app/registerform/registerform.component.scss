@@ -1,13 +1,13 @@
 .content {
-    max-width       : 500px;
+    max-width       : 600px;
     margin          : auto;
     background-color: #ffffff;
     padding         : 2% 2%;
 }
 
 button {
-    background-color: #000;
-    color           : #fff;
+    // background-color: #000;
+    color           : #000;
 }
 
 button:hover {
@@ -16,5 +16,5 @@ button:hover {
 
 .error {
     color: red;
-    font-size: 12px;
+    font-size: 10px;
 }
